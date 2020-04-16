@@ -1,0 +1,94 @@
+.header {
+  background: #27273e;
+}
+.container  {
+  width: 1100px;
+  margin: 0 auto;
+}
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.workadium_logo {
+  margin: 20px 0;
+}
+.head_right {
+  text-align: right;
+}
+.contacts {
+  padding: 25px 0;
+}
+.contacts_phone {
+  font-family: 'gotham pro', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+.working_time {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #769dcd;
+}
+.dropdown {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 200px;
+  height: 80px;
+  position: absolute;
+  top: 90px;
+  left: -9999px;
+  background: #fff;
+  z-index: 10;
+}
+.dropdown:before {
+  content: "";
+  display: block;
+  height: 30px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: -29px;
+}
+
+.triangle {
+  border-top:  0px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #fff;
+  border-left: 20px solid transparent;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: -20px;
+  left: 130px; 
+}
+.triangle:before {
+  content: "";
+  border-top:  0px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #fff;
+  border-left: 20px solid transparent;
+  width: 0px;
+  position: absolute;
+  top: 1px;
+  left: -20px;
+}
+.time {
+  position: relative;
+  top: 18px;
+  font-size: 18px;
+  text-align: center;
+}
+.work_time {
+  font-family: 'gotham pro', sans-serif;
+  color: #ec1e79;
+}
+.lunch_time {
+  font-family: 'Open Sans', sans-serif;  
+}
+.working_time:hover .dropdown {
+  left: 80%;
+}

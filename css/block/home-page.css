@@ -1,0 +1,63 @@
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+}
+.decor_image {
+  background: url('/img/decor/about.jpg') 0 0 no-repeat;
+  width: 880px;
+  height: 360px;
+}
+.about_company {
+  font-family: 'gotham pro', sans-serif;
+  font-size: 50px;
+  color: #fff;
+  position: relative;
+  top: 150px;
+  left: 60px;
+}
+.article {
+  font-family: 'Open Sans', sans-serif;
+  width: 700px;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 2em;
+}
+li {
+  color: #ec1e79;
+}
+li span {
+  color: #000; /* Цвет текста */
+ }
+.discount_block {
+  background: #27273e;
+  margin-bottom: 70px;
+}
+.discount_text {
+  color: #fff;
+  padding: 15px;
+}
+b {
+  color: #ec1e79;
+  font-weight: bold;
+}
+.partners_headline {
+  font-family: 'gotham pro', sans-serif;
+  font-size: 50px;
+}
+.partners {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-inline-start: 0px;
+}
+.partners_item {
+  width: 30%;
+  padding: 30px;
+  display: flex;
+  justify-content: center;;
+  margin-bottom: 50px;
+}

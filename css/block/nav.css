@@ -1,0 +1,35 @@
+.nav_list {
+  padding-left: 0;
+  margin-top: 50px;
+}
+ul >.nav_item {
+  list-style-type: none;
+}
+.nav_link {
+  font-family: 'gotham pro', sans-serif;
+  display: flex;
+  text-decoration: none;
+  color: #ec1e79;
+  font-size: 18px;
+  margin-top: 40px;
+  transition: 1s;
+}
+.nav_icon_main, .nav_icon_team, .nav_icon_reviews {
+  background: url('/img/icons/icons-sprite.png') 0 0 no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.nav_icon_team {
+  background-position-x: -100px;
+}
+.nav_icon_reviews {
+  background-position-x: -200px;
+}
+.nav_link:hover >  .nav_menu {
+  color: #000;
+  transition: .5s;
+}
+.nav_link:hover > .nav_icon_main, .nav_link:hover > .nav_icon_team, .nav_link:hover > .nav_icon_reviews {
+  background-position-y: -100px;
+}

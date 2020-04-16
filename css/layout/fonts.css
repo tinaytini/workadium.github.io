@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'gotham pro';
+  src: url('/workadium/fonts/GothamPro-Bold.woff') format('woff2'),
+       url('/workadium/fonts/GothamPro-Light.woff') format('woff'),
+       url('/workadium/fonts/GothamPro-LightItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: optional;
+}

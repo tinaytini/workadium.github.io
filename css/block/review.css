@@ -1,0 +1,47 @@
+.breadcrumb_review_pagination {
+  margin: 30px 0;
+  width: 880px;
+}
+.review_list  {
+  padding-inline-start: 0px;
+}
+.review_title {
+  font-family: 'gotham pro', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.review_item {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+.review_item:last-child {
+  border-bottom: none;
+}
+.item_img {
+  border-radius: 80px;
+}
+.review_item_comments {
+  font-family: 'Open Sans', sans-serif;
+  width: 700px;
+}
+.review_item_name_date {
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+.date {
+  font-size:16px;
+  color: #656464;
+}
+.name {
+  color: #221f1f;
+  font-weight: bold;
+  font-size: 18px;
+}
+.review_article {
+  line-height: 30px;
+  font-size: 18px;
+  color: #221f1f;
+}

@@ -1,0 +1,19 @@
+@import './layout/settings.css';
+@import './block/welcome-page.css';
+@import './layout/fonts.css';
+@import './block/header.css';
+@import './block/home-page.css';
+@import './block/nav.css';
+@import './block/footer.css';
+@import './block/price.css';
+@import './block/review.css';
+@import './block/pagination.css';
+@import './block/form.css';
+
+
+/* @mixin tablet {
+    @media screen and (max-width: 1200px) {
+        @content;
+     
+     }
+} */

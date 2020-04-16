@@ -1,0 +1,53 @@
+.footer {
+  min-width: 1200px;
+  background: #27273e;
+}
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.footer_text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  color: #fff;
+}
+.social_desc {
+  font-family: 'gotham pro' sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+.social {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+.vk, .facebook, .google, .twitter, .email {
+  background: url('/img/icons/socials/socials-sprite.png') 0 0 no-repeat;
+  width: 20px;
+  height: 20px;
+}
+.facebook {
+  background-position-x: -100px;
+}
+.google {
+  background-position-x: -200px;
+}
+.twitter {
+  background-position-x: -300px;
+}
+.email  {
+  background-position-x: -400px;
+}
+.footer_link {
+  transition: .3s;
+}
+.footer_social {
+  transition: .3s;
+}
+.footer_link:hover > div {
+  background-position-y: -100px;
+}
